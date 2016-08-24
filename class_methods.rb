@@ -131,10 +131,13 @@ end
 #make one pawn
 one_pawn = Pawn.new("A2")
 one_pawn.make_row("purple")
-#
+# we cannot call a method on an object.
+# if its spawning itself you can only call it on class.
+
+
 #make a whole row of pawns
 # pawns = Pawn.make_row("black")
-#
+# =>      class itself
 # #What is being stored in this local variable pawns?
 # print pawns
 #
